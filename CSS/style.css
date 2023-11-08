@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --font-title:'cursive';
+    --col1: #2B3499;
+    --col2:#FF6C22;
+    --col3:#FF9209;
+    --col4:#FFD099;
+    --rgb-gray-800: 24 49 83;
+    
+    --fa-navy: var(--gray-800);
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(89,16,213,0.9655172413793104) 36%, rgba(0,212,255,1) 100%);
+    height: 10vh;
+    padding: 15px;
+    color: white;
+    text-shadow: rgb(241, 241, 241) 20px;
+
+    display: flex;
+    justify-content: space-between; /*Eje X*/
+    align-items: center; /*Eje Y*/
+}
+
+body{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+/*cajas*/
+.flex-container1{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.caja{
+    height: 100px;
+    width: 100px;
+    border: solid 1px;
+}
+
+.roja, .menu-desplegable{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.flex-container2{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: end;
+}
+
+.verde{
+    background-color: green;
+
+}
+
+.violeta{
+    background-color: #183153;
+}
+/*fin cajas*/
